@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Single page, site, CSS, HTML " />
+    <meta name="description" content="..." />
+    <meta name="author" content="Cauã Ferreira Santos" />
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./assets/icon-site.png" type="image/x-icon">
+    <title>Meu Site de Página Única</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <a href="#hero" class="logo">MeuSite</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#gallery"></a></li>
+                <li><a href="#testimonials"></a></li>
+                <li><a href="#contact"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Bem-vindo ao Nosso Espaço Criativo</h1>
+                <p class="hero-subtitle">Onde ideias incríveis ganham vida.</p>
+                <a href="#contact" class="hero-button">Entre em Contato</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Nossa Galeria</h2>
+                <div class="galley-grid">
+                    <div class="gallery-item"><img src="./assets/foto-1.webp"
+                            alt="Moisaco na torcida do corinthians, com um gavião agarrando o escudo"></div>
+                    <div class="gallery-item"><img src="./assets/foto-2.jpg"
+                            alt="Escudo do Corinthians com listras em preto e branco atrás"></div>
+                    <div class="gallery-item"><img src="./assets/foto-3.jpg"
+                            alt="Jogadores do Coritnhians levantando a taça do Paulistão 2025"></div>
+                    <div class="gallery-item"><img src="./assets/foto-4.jpg"
+                            alt="Rodrigo Garro fazendo gol no palmeiras e deixando os jogadores rivais no chão"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">O Que Dizem Sobre Nós</h2>
+                <div class="testimonials-grid">
+                    <article class="testimonial-card">
+                        <img src="./assets/perfil-1.jpg" alt="Foto de Romero" class="testimonial-avatar">
+                        <blockquote>“Trabalho impecável e criativo. Transformaram minha ideia em realidade!”
+                        </blockquote>
+                        <cite>Ángel Romero</cite>
+                    </article>
+                    <article class="testimonial-card">
+                        <img src="./assets/perfil-2.jpg" alt="Foto de Memphis" class="testimonial-avatar">
+                        <blockquote>“Profissionalismo e entrega no prazo. Superou minhas expectativas.”</blockquote>
+                        <cite>Memphis Depay</cite>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="form-container">
+                <h2 class="section-title">Fale Conosco</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="user_email">
+                    </div>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 MeuSite. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
